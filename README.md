@@ -1,7 +1,7 @@
-# NetSIG Presentation - [Presentation Title]
+# NetSIG Presentation - DNS, the Domain Name System
 
-[![Actions Status](https://github.com/netserf/template-presentation-repo/workflows/Markdown%20Lint/badge.svg)](https://github.com/netserf/template-presentation-repo/actions)
-[![Actions Status](https://github.com/netserf/template-presentation-repo/workflows/Markdown%20Links/badge.svg)](https://github.com/netserf/template-presentation-repo/actions)
+[![Actions Status](https://github.com/netserf/netsig-presentation-dns/workflows/Markdown%20Lint/badge.svg)](https://github.com/netserf/netsig-presentation-dns/actions)
+[![Actions Status](https://github.com/netserf/netsig-presentation-dns/workflows/Markdown%20Links/badge.svg)](https://github.com/netserf/netsig-presentation-dns/actions)
 
 ## Presentation Summary
 
@@ -10,7 +10,7 @@ Topics will include ...
 
 ## Presentation Slides
 
-* [Presentation Title](dummy-slides.txt)
+* [DNS - The Domain Name System](netsig-presentation-dns.pdf)
 
 ## Who is NetSIG?
 
