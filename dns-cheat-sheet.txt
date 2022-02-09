@@ -1,0 +1,37 @@
+# Cheat Sheet for NetSIG presentation - GCP for Newbies
+# For more details:
+# https://github.com/netserf/netsig-presentation-dns
+
+# Install dig
+# On Ubuntu:
+$ sudo apt install dnsutils
+
+# On Centos:
+$ sudo dnf install bind-utils
+
+# On Arch:
+$ sudo pacman -Sy dnsutils
+
+# simple DNS lookups
+dig vicpimakers.ca
+dig vicpimakers.ca AAAA
+dig www.vicpimakers.ca AAAA
+
+# checking nsswitch.conf for name lookup order
+grep hosts /etc/nsswitch.conf
+getent ahosts mydummyhost
+
+# understanding resolv.conf
+cat /etc/resolv.conf
+
+# checking the DNS TTL
+watch 'dig vicpimakers.ca A | grep -A 1 "ANSWER SECTION"'
+
+# nameserver records
+dig vicpimakers.ca NS
+
+# querying authoritative nameservers
+dig @ns1.cozyhost.space vicpimakers.ca A
+
+# trace queries to see the complete DNS query
+dig +trace vicpimakers.ca A

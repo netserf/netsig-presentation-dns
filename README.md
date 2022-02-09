@@ -5,8 +5,9 @@
 
 ## Presentation Summary
 
-In this session we'll look at ...
-Topics will include ...
+In this session we'll look at DNS, the Domain Name System. Topics will include
+the inner workings of DNS and using the dig command line tool to reveal its
+behaviour.
 
 ## Presentation Slides
 
@@ -26,7 +27,7 @@ These presentations are currently hosted online.
 
 ## Where can I find the cheatsheet for this presentation?
 
-* [Template Cheat Sheet](template-cheat-sheet.txt)
+* [DNS - The Domain Name System](dns-cheat-sheet.txt)
 
 ## Contributing
 
